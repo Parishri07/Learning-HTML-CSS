@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+}
+.birthday{
+    background-color:mintcream;
+}
+.slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slide:not(:first-child) {
+    opacity: 0;
+  }
+.cake{
+    width:400px;
+    height:400px;
+}
+.garland{
+    width:100px;
+    height:100px;
+} 
+.div1{
+   padding-top:200px;
+   height:500px;
+   background-color:#0A4D68;
+}
+.div2{
+  background-color:#088395;
+  height: 400px;
+}
+.div3{
+  background-color: #05BFDB;
+  height:300px;
+}
+.div4{
+  background-color:#00FFCA;
+  height:200px;
+}
+.transition-text {
+  opacity: ;
+  transition: opacity 1s ease-in-out;
+}
+
+.text-text:hover{
+  opacity: 1;
+}
+.wish{
+  display: inline-block;
+  transition:ease-in-out;
+
+}
+

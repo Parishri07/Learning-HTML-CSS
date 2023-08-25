@@ -1,0 +1,29 @@
+body{
+    margin:0px;
+}
+.red{
+    height:100px;
+    width:100px;
+    background-color: red;
+    position:absolute;
+    left:200px;
+    margin-top:200px;
+}
+.blue{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    position:absolute;
+    left:100px;
+    margin-top:100px;
+}
+.yellow{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+}
+div{
+    display:inline-block;
+}
+/* doing relative does not shift the position of the other elements
+absolute makes that space empty */

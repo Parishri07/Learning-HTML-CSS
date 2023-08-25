@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy 19th Birthday!</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      animation: colorChange 10s infinite;
+    }
+
+    @keyframes colorChange {
+      0% {
+        background-color: #000;
+      }
+      25% {
+        background-color: #ff0000;
+      }
+      50% {
+        background-color: #00ff00;
+      }
+      75% {
+        background-color: #0000ff;
+      }
+      100% {
+        background-color: #000;
+      }
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-top: 200px;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-30px);
+      }
+      60% {
+        transform: translateY(-15px);
+      }
+    }
+
+    .balloon {
+      position: fixed;
+      width: 100px;
+      height: 150px;
+      background-color: #f00;
+      border-radius: 50%;
+      animation: float 3s infinite;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(0, -20px);
+      }
+    }
+
+    .decorations {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+
+    .confetti {
+      width: 10px;
+      height: 10px;
+      background-color: #ff0;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: confetti 3s infinite;
+    }
+
+    @keyframes confetti {
+      0% {
+        transform: translate(-50%, 0) rotate(0);
+      }
+      100% {
+        transform: translate(-50%, 100vh) rotate(720deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy 19th Birthday!</h1>
+  <div class="balloon"></div>
+  <div class="decorations">
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <!-- Add more confetti divs as desired -->
+  </div>
+  <p>On this special day, as you turn 19, I wanted to take a moment to express how grateful I am to have you in my life. You are an incredible person with so much potential and a heart full of kindness. Each passing year, you continue to amaze me with your growth and accomplishments.</p>
+  <p>May this year be filled with beautiful moments, unforgettable experiences, and endless joy. Remember to embrace every opportunity that comes your way and chase your dreams with determination and passion.</p>
+  <p>Thank you for being an amazing friend, and I look forward to celebrating many more birthdays with you. Happy 19th birthday, and here's to an incredible year ahead!</p>
+</body>
+</html>

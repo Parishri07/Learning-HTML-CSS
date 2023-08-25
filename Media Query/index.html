@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .box{
+            background-color: rgb(35, 141, 145);
+            color: white;
+            font-size:50px;
+            text-align: center;
+            display: none;
+        }
+        @media (max-width:300px){
+           #box1{
+            display: block;
+           }
+        }
+    </style>
+</head>
+<body>
+   <div class="box">
+    <div class="box" id="box1">Phone</div>
+    <div class="box" id="box2">Tablet</div>
+    <div class="box" id="box3">Computer screen</div>
+    <div class="box" id="box4">Wide Screen</div>
+   </div> 
+</body>
+</html>
