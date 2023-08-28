@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Grid</title>
+    <style>
+       /* .container{
+        display: grid;
+        /* grid-template-columns: 200px 100px 200px; */
+        /* grid-template-columns: 200px auto 300px; */
+        /* grid-template-columns: 1fr 4fr 1fr;  */
+        /* grid-template-columns: repeat(4, auto);  */
+        /* grid-gap: 2rem; */
+        /* 1:4:1 ratio */
+        /* } */ */
+
+        /* .item{
+        /* height:100px;
+        width:100px; */
+        /* background-color: darkcyan; */
+        /* margin: 2px; */
+       /* } */ */
+
+        .grid{ 
+           display:grid;
+           grid-template-rows: 1fr 4fr 4fr;
+           /* first three rows height is specified, rest will be auto*/
+           grid-auto-rows: 2fr;
+        }
+
+        .box{
+            background-color: rgb(165, 98, 227);
+            border: 2px black solid;
+        }
+       
+    </style>
 </head>
 <body>
-    
+     <!-- <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div> -->
+
+    <div class="grid">
+        <div class="box">This is a box-1</div>
+        <div class="box">This is a box-2</div>
+        <div class="box">This is a box-3</div>
+        <div class="box">This is a box-4</div>
+        <div class="box">This is a box-5</div>
+        <div class="box">This is a box-6</div>
+        <div class="box">This is a box-7</div>
+        <div class="box">This is a box-8</div>
+        <div class="box">This is a box-9</div>
+        <div class="box">This is a box-10</div>
+    </div>
 </body>
 </html>
